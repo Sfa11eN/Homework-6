@@ -25,6 +25,10 @@ public class Main {
             System.out.println(i);
         }
 
+        System.out.println(" Задание 4 ");
+
+
+
 
     }
 }
