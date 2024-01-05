@@ -52,5 +52,15 @@ public class Main {
         for (int amount = 1; amount <= 12; amount++) {
             System.out.println(" Месяц " + amount + " сумма накоплений " + amount * deferredAmount + " рублей ");
         }
+        System.out.println(" Задание 9 ");
+
+        int moneyFlow = 29000;
+        double bankPercent = 0.01;
+        int finalFlow = 0;
+
+        for (int amount = 1; amount <= 12; amount++) {
+            finalFlow += moneyFlow + finalFlow * bankPercent;
+            System.out.println(" Месяц " + amount + " сумма накоплений " + (finalFlow) + " рублей ");
+        }
     }
 }
