@@ -62,5 +62,10 @@ public class Main {
             finalFlow += moneyFlow + finalFlow * bankPercent;
             System.out.println(" Месяц " + amount + " сумма накоплений " + (finalFlow) + " рублей ");
         }
+        System.out.println(" Задание 10 ");
+
+        for (int i = 1; i <= 9; i++) {
+            System.out.println(" 2 * " + i + " = " + 2 * i);
+        }
     }
 }
